@@ -57,5 +57,7 @@ int main() {
         case '12' :
             std::cout << "December!" << std::endl;
             break;
+    } else {
+        std::cout << number << "That's not a month!" << std::endl;
     }
 }
